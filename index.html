@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Intro component with sign up form</title>
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+  <!-- JQUERY -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+</head>
+<body>
+  <div class="container">
+    <div class="section1">
+      <div class="section1-container">
+        <h1 class="big-title">Learn to code by watching others</h1>
+        <p class="section-1-text">
+          See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+          but understanding how developers think is invaluable. 
+        </p>
+      </div>
+    </div>
+
+    <div class="section2">
+      <div class="top-button">
+        <a href="#" class="top-button-text">
+          <b>Try it free 7 days</b>  then $20/mo. thereafter
+        </a>
+      </div>
+      <div class="section2-container">
+        <div class="form-container">
+          <form action="" class="section2-form">
+            <div class="inputs">
+              <input placeholder="First Name" type="text" id="first-name">
+              <span class="error-first">Cannot be empty</span>
+            </div>
+            <div class="inputs">
+              <input placeholder="Last Name" type="text" id="last-name">
+              <span class="error-last">Cannot be empty</span>
+            </div>
+            <div class="inputs">
+              <input placeholder="Email Adress" type="email" id="email">
+              <span class="error-email">Cannot be empty</span>
+            </div>
+            <div class="inputs">
+              <input placeholder="Password" type="password" id="password">
+            <span class="error-pass">Cannot be empty</span>
+            </div>  
+            <div class="button-and-discalimer">
+              <input type="button" value="CLAIM YOUR FREE TRIAL" id="btn-input">
+            <p class="disclaimer">By clicking the button, you are agreeing to our <a href="#" id="terms">Terms and Services</a></p>
+            </div>
+            
+          </form>
+        </div>
+        
+       
+      </div>
+    </div>
+  </div>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
